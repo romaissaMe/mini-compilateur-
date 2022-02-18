@@ -1,0 +1,21 @@
+PROGRAM compil
+PDEC
+x_5|x6:PINT;
+i:PINT;
+j:PINT;
+j:PFLOAT;
+@define PFLOAT x7=0.1;
+PINST
+BEGIN
+i<-0;
+x7<-j;
+x6<-x6/(i+i);
+x6<-5.1;
+/*j<-666666; //erreur lexical
+*/
+DO FOR i<-2.1 WHILE 2
+DO
+x6<- x6 + x5;
+ENDFOR;
+:IF((j==2 & i<=1));
+End

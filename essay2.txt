@@ -1,0 +1,9 @@
+PROGRAM compile2
+PDEC
+var1:PINT;
+var2|var3:PFLOAT;
+@define PFLOAT cst=5.4;
+PINST
+BEGIN
+var2 <- var3 + (cst*3.9);
+End
